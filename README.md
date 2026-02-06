@@ -8,7 +8,7 @@ SafeRouteAI is an iOS application that helps users find the safest walking and b
 
 SafeRouteAI promotes safety, equity, and trust in technology—aligned with the values of the U.S. President's administration. The app demonstrates ethical AI use to improve community safety and accessibility.
 
-## ✨ Features
+##  Features
 
 ### Core Functionality
 - **AI-Recommended Safe Routes** with color-coded safety levels (Green: Safe, Yellow: Moderate, Red: Risky)
