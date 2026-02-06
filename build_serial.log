@@ -1,0 +1,213 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme SafeRouteAI -project SafeRouteAI.xcodeproj -UseModernBuildSystem=NO
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'SafeRouteAI' in project 'SafeRouteAI' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: a80384caa524136ccb60e8c7159d4671
+Build description path: /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/XCBuildData/a80384caa524136ccb60e8c7159d4671.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.1-23B77-69b33fc7382b27d9b5d46e82a00f8e78.sdkstatcache
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -o /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.1-23B77-69b33fc7382b27d9b5d46e82a00f8e78.sdkstatcache
+
+ProcessProductPackaging "" /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI.app.xcent (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "Q39R492PWQ.ShivenK.SafeRouteAI";
+    "com.apple.developer.team-identifier" = Q39R492PWQ;
+    "get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI.app.xcent
+
+ProcessProductPackagingDER /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI.app.xcent /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI.app.xcent.der (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    /usr/bin/derq query -f xml -i /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI.app.xcent -o /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI.app.xcent.der --raw
+
+ProcessInfoPlistFile /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos/SafeRouteAI.app/Info.plist /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/empty-SafeRouteAI.plist (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    builtin-infoPlistUtility /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/empty-SafeRouteAI.plist -producttype com.apple.product-type.application -genpkginfo /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos/SafeRouteAI.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos/SafeRouteAI.app/Info.plist
+
+SwiftDriver SafeRouteAI normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SafeRouteAI -Onone -enforce-exclusivity\=checked @/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -target arm64-apple-ios26.1 -g -module-cache-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos -F /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.1-23B77-69b33fc7382b27d9b5d46e82a00f8e78.sdkstatcache -output-file-map /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI_const_extract_protocols.json -Xcc -iquote -Xcc /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-generated-files.hmap -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-own-target-headers.hmap -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-all-target-headers.hmap -Xcc -iquote -Xcc /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-project-headers.hmap -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos/include -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources-normal/arm64 -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources/arm64 -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI-Swift.h -working-directory /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ CodableExtensions.swift,\ CommunityModels.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CodableExtensions.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CommunityModels.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CodableExtensions.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CommunityModels.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 Compiling\ RouteModels.swift,\ AboutView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/AboutView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/AboutView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 Compiling\ LocationManager.swift,\ SafetyDataManager.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Managers/LocationManager.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Managers/SafetyDataManager.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Managers/LocationManager.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Managers/SafetyDataManager.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 Compiling\ AIInsightsView.swift,\ CommunityView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/AIInsightsView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/CommunityView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/AIInsightsView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/CommunityView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 Compiling\ HomeView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/HomeView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/HomeView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 Compiling\ SafetyPredictionModel.swift,\ GlassCard.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/AI/SafetyPredictionModel.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Components/GlassCard.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/AI/SafetyPredictionModel.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Components/GlassCard.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/ContentView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+
+SwiftCompile normal arm64 /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/ContentView.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ SafeRouteAI (in target 'SafeRouteAI' from project 'SafeRouteAI')
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/AI/SafetyPredictionModel.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Components/GlassCard.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Managers/LocationManager.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Managers/SafetyDataManager.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CodableExtensions.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CommunityModels.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/AboutView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/AIInsightsView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/CommunityView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Views/HomeView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/ContentView.swift /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/SafeRouteAIApp.swift /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources/GeneratedAssetSymbols.swift -target arm64-apple-ios26.1 -module-can-import-version DeveloperToolsSupport 23.0.4 23.0.4 -module-can-import-version SwiftUI 7.1.13.1 7.1.13 -module-can-import-version UIKit 9126.1.12.1 9126.1.12 -disable-cross-import-overlay-search -swift-module-cross-import MapKit /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Modules/MapKit.swiftcrossimport/SwiftUI.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -I /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos -F /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=5 -module-cache-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI_const_extract_protocols.json -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -default-isolation\=MainActor -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI -enable-anonymous-context-mangled-names -file-compilation-dir /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphoneos26.1-23B77-69b33fc7382b27d9b5d46e82a00f8e78.sdkstatcache -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-generated-files.hmap -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-own-target-headers.hmap -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-all-target-headers.hmap -Xcc -iquote -Xcc /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/SafeRouteAI-project-headers.hmap -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Products/Debug-iphoneos/include -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources-normal/arm64 -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources/arm64 -Xcc -I/Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name SafeRouteAI -frontend-parseable-output -disable-clang-spi -target-sdk-version 26.1 -target-sdk-name iphoneos26.1 -clang-target arm64-apple-ios26.1 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -emit-module-doc-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI.swiftdoc -emit-module-source-info-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI.swiftsourceinfo -emit-objc-header-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI-Swift.h -serialize-diagnostics-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI-primary-emit-module.dia -emit-dependencies-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI-primary-emit-module.d -o /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI.swiftmodule -emit-abi-descriptor-path /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/Objects-normal/arm64/SafeRouteAI.abi.json
+
+EmitSwiftModule normal arm64 (in target 'SafeRouteAI' from project 'SafeRouteAI')
+    cd /Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI
+    
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CodableExtensions.swift:5:1: warning: extension declares a conformance of imported type 'CLLocationCoordinate2D' to imported protocols 'Decodable', 'Encodable'; this will not behave correctly if the owners of '_LocationEssentials' introduce this conformance in the future
+extension CLLocationCoordinate2D: Codable {
+^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/CodableExtensions.swift:5:1: note: add '@retroactive' to silence this warning
+extension CLLocationCoordinate2D: Codable {
+^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:37:8: error: type 'RoutePoint' does not conform to protocol 'Decodable'
+struct RoutePoint: Identifiable, Codable {
+       ^
+Swift.Decodable.init:2:1: note: protocol requires initializer 'init(from:)' with type 'Decodable'
+init(from decoder: any Decoder) throws}
+^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:42:9: note: cannot automatically synthesize 'Decodable' because 'SafetyLevel' does not conform to 'Decodable'
+    let safetyLevel: SafetyLevel
+        ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:37:8: error: type 'RoutePoint' does not conform to protocol 'Decodable'
+struct RoutePoint: Identifiable, Codable {
+       ^
+Swift.Decodable.init:2:1: note: protocol requires initializer 'init(from:)' with type 'Decodable'
+init(from decoder: any Decoder) throws}
+^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:42:9: note: cannot automatically synthesize 'Decodable' because 'SafetyLevel' does not conform to 'Decodable'
+    let safetyLevel: SafetyLevel
+        ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:37:8: error: type 'RoutePoint' does not conform to protocol 'Encodable'
+struct RoutePoint: Identifiable, Codable {
+       ^
+Swift.Encodable.encode:2:6: note: protocol requires function 'encode(to:)' with type 'Encodable'
+func encode(to encoder: any Encoder) throws}
+     ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:42:9: note: cannot automatically synthesize 'Encodable' because 'SafetyLevel' does not conform to 'Encodable'
+    let safetyLevel: SafetyLevel
+        ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:37:8: error: type 'RoutePoint' does not conform to protocol 'Encodable'
+struct RoutePoint: Identifiable, Codable {
+       ^
+Swift.Encodable.encode:2:6: note: protocol requires function 'encode(to:)' with type 'Encodable'
+func encode(to encoder: any Encoder) throws}
+     ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:42:9: note: cannot automatically synthesize 'Encodable' because 'SafetyLevel' does not conform to 'Encodable'
+    let safetyLevel: SafetyLevel
+        ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:55:8: error: type 'Route' does not conform to protocol 'Decodable'
+struct Route: Identifiable, Codable {
+       ^
+Swift.Decodable.init:2:1: note: protocol requires initializer 'init(from:)' with type 'Decodable'
+init(from decoder: any Decoder) throws}
+^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:64:9: note: cannot automatically synthesize 'Decodable' because 'SafetyLevel' does not conform to 'Decodable'
+    let safetyLevel: SafetyLevel
+        ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:55:8: error: type 'Route' does not conform to protocol 'Decodable'
+struct Route: Identifiable, Codable {
+       ^
+Swift.Decodable.init:2:1: note: protocol requires initializer 'init(from:)' with type 'Decodable'
+init(from decoder: any Decoder) throws}
+^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:64:9: note: cannot automatically synthesize 'Decodable' because 'SafetyLevel' does not conform to 'Decodable'
+    let safetyLevel: SafetyLevel
+        ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:55:8: error: type 'Route' does not conform to protocol 'Encodable'
+struct Route: Identifiable, Codable {
+       ^
+Swift.Encodable.encode:2:6: note: protocol requires function 'encode(to:)' with type 'Encodable'
+func encode(to encoder: any Encoder) throws}
+     ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:64:9: note: cannot automatically synthesize 'Encodable' because 'SafetyLevel' does not conform to 'Encodable'
+    let safetyLevel: SafetyLevel
+        ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:55:8: error: type 'Route' does not conform to protocol 'Encodable'
+struct Route: Identifiable, Codable {
+       ^
+Swift.Encodable.encode:2:6: note: protocol requires function 'encode(to:)' with type 'Encodable'
+func encode(to encoder: any Encoder) throws}
+     ^
+/Users/shivenkhurana/Documents/trae_projects/SafeRouteXcode/SafeRouteAI/SafeRouteAI/Models/RouteModels.swift:64:9: note: cannot automatically synthesize 'Encodable' because 'SafetyLevel' does not conform to 'Encodable'
+    let safetyLevel: SafetyLevel
+        ^
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/shivenkhurana/Library/Developer/Xcode/DerivedData/SafeRouteAI-ezczffwuqklaqfeabbhtmobnushh/Build/Intermediates.noindex/SafeRouteAI.build/Debug-iphoneos/SafeRouteAI.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'SafeRouteAI' from project 'SafeRouteAI')
+

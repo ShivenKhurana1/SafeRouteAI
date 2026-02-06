@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <!-- Background Gradient Layer 1 (Deep Blue) -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgGrad1-2b-3Gr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.058823529411764705" green="0.1803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            
+                            <!-- Background Gradient Layer 2 (Medium Blue) -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgGrad2-4d-5Hj">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.12549019607843137" green="0.29411764705882354" blue="0.47058823529411764" alpha="0.8" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            
+                            <!-- Shield Icon Container (Centered) -->
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ShieldContainer-9o-0p">
+                                <rect key="frame" x="146.66666666666666" y="280" width="100" height="100"/>
+                                <subviews>
+                                    <!-- Shield Background Circle -->
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ShieldBg-uv-wx">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.15" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="ShieldBg-w-100"/>
+                                            <constraint firstAttribute="height" constant="100" id="ShieldBg-h-100"/>
+                                        </constraints>
+                                    </view>
+                                    
+                                    <!-- Shield Icon -->
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shield.checkerboard" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ShieldIcon-yz-1a">
+                                        <rect key="frame" x="25" y="25" width="50" height="50"/>
+                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="ShieldIcon-w-50"/>
+                                            <constraint firstAttribute="height" constant="50" id="ShieldIcon-h-50"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ShieldBg-uv-wx" firstAttribute="centerX" secondItem="ShieldContainer-9o-0p" secondAttribute="centerX" id="ShieldBg-cx"/>
+                                    <constraint firstItem="ShieldBg-uv-wx" firstAttribute="centerY" secondItem="ShieldContainer-9o-0p" secondAttribute="centerY" id="ShieldBg-cy"/>
+                                    <constraint firstItem="ShieldIcon-yz-1a" firstAttribute="centerX" secondItem="ShieldContainer-9o-0p" secondAttribute="centerX" id="ShieldIcon-cx"/>
+                                    <constraint firstItem="ShieldIcon-yz-1a" firstAttribute="centerY" secondItem="ShieldContainer-9o-0p" secondAttribute="centerY" id="ShieldIcon-cy"/>
+                                </constraints>
+                            </view>
+                            
+                            <!-- App Title -->
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SafeRouteAI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AppTitle-bc-2d">
+                                <rect key="frame" x="20" y="400" width="353" height="50"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="42"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            
+                            <!-- Subtitle -->
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Your Safest Path" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Subtitle-de-3f">
+                                <rect key="frame" x="20" y="460" width="353" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.9" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <!-- Background Constraints -->
+                            <constraint firstItem="BgGrad1-2b-3Gr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Bg1-lead"/>
+                            <constraint firstItem="BgGrad1-2b-3Gr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Bg1-top"/>
+                            <constraint firstAttribute="trailing" secondItem="BgGrad1-2b-3Gr" secondAttribute="trailing" id="Bg1-trail"/>
+                            <constraint firstAttribute="bottom" secondItem="BgGrad1-2b-3Gr" secondAttribute="bottom" id="Bg1-bottom"/>
+                            
+                            <constraint firstItem="BgGrad2-4d-5Hj" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Bg2-lead"/>
+                            <constraint firstItem="BgGrad2-4d-5Hj" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Bg2-top"/>
+                            <constraint firstAttribute="trailing" secondItem="BgGrad2-4d-5Hj" secondAttribute="trailing" id="Bg2-trail"/>
+                            <constraint firstAttribute="bottom" secondItem="BgGrad2-4d-5Hj" secondAttribute="bottom" id="Bg2-bottom"/>
+                            
+                            <!-- Shield Container Constraints -->
+                            <constraint firstItem="ShieldContainer-9o-0p" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Shield-cx"/>
+                            <constraint firstItem="ShieldContainer-9o-0p" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-146" id="Shield-cy"/>
+                            
+                            <!-- Title Constraints -->
+                            <constraint firstItem="AppTitle-bc-2d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Title-lead"/>
+                            <constraint firstAttribute="trailing" secondItem="AppTitle-bc-2d" secondAttribute="trailing" constant="20" id="Title-trail"/>
+                            <constraint firstItem="AppTitle-bc-2d" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Title-cy"/>
+                            
+                            <!-- Subtitle Constraints -->
+                            <constraint firstItem="Subtitle-de-3f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Sub-lead"/>
+                            <constraint firstAttribute="trailing" secondItem="Subtitle-de-3f" secondAttribute="trailing" constant="20" id="Sub-trail"/>
+                            <constraint firstItem="Subtitle-de-3f" firstAttribute="top" secondItem="AppTitle-bc-2d" secondAttribute="bottom" constant="10" id="Sub-top"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shield.checkerboard" catalog="system" width="128" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

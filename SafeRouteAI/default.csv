@@ -1,0 +1,4 @@
+# Placeholder CSV file for SafeRouteAI
+# This file prevents resource location errors
+latitude,longitude,lighting_level,time_of_day,weather_condition,crowd_density,incident_reports,day_of_week,distance_to_emergency,infrastructure_quality,street_type,sidewalk_quality,crosswalk_available,traffic_density,hazard_count,crime_index,pedestrian_fatalities,bike_lane_available,street_width,visibility_score,time_since_last_incident,safety_score
+37.7749,-122.4194,0.8,0.5,0.9,0.3,0.1,0.5,0.7,0.8,0.4,0.7,1.0,0.5,0.2,0.3,0.1,1.0,0.6,0.8,0.9,0.4

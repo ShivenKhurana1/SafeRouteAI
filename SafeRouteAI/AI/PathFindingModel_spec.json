@@ -1,0 +1,40 @@
+{
+  "modelType": "randomForestRegressor",
+  "version": "1.0",
+  "description": "SafeRouteAI PathFinding Model - Trained Random Forest for safety prediction",
+  "author": "SafeRouteAI Team",
+  "license": "MIT",
+  "features": [
+    "latitude",
+    "longitude",
+    "lighting_level",
+    "time_of_day",
+    "weather_condition",
+    "crowd_density",
+    "incident_reports",
+    "day_of_week",
+    "distance_to_emergency",
+    "infrastructure_quality",
+    "street_type",
+    "sidewalk_quality",
+    "crosswalk_available",
+    "traffic_density",
+    "hazard_count",
+    "crime_index",
+    "pedestrian_fatalities",
+    "bike_lane_available",
+    "street_width",
+    "visibility_score",
+    "time_since_last_incident"
+  ],
+  "target": "safety_score",
+  "performance": {
+    "train_r2": 0.970158161206553,
+    "test_r2": 0.8953242920706878,
+    "n_samples": 1000
+  },
+  "model_params": {
+    "n_estimators": 50,
+    "max_depth": 8
+  }
+}
